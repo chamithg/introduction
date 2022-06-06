@@ -12,11 +12,10 @@ def roll_dice(number, sides):    #def roll_dice(number, sides = 6) this makes th
     for roll in range(1, number+ 1):
         roll_result = randint(1, sides)
         result = result + roll_result # randint return value both inclusive
-        print("dice " + str(roll) + " --> " + str(roll_result) )
+        
         
 
 
     return result
 
 
-print(roll_dice(3,6))
